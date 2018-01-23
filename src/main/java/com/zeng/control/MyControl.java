@@ -70,5 +70,11 @@ public class MyControl {
 		model.addAttribute("msg", msg);
 		return "main";
 	}
+	@RequestMapping(value="show")
+	public String show6(Model model){
+		String msg="hello";
+		model.addAttribute("msg", msg);
+		return "main";
+	}
 	
 }
