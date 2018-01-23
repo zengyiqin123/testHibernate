@@ -49,4 +49,10 @@ public class UserControl {
 		model.addAttribute("msg", "用户信息");
 		return "user/suc";
 	}
+	
+	@RequestMapping(value="showinfo2",method=RequestMethod.GET)
+	public String showinfo2(Model model){
+		model.addAttribute("msg", "用户信息");
+		return "user/suc";
+	}
 }
